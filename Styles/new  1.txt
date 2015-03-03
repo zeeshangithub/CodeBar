@@ -1,14 +1,34 @@
-.footer_content1 .footer_content1_social ul li  a:nth-child(1n+1){
-background: url(../content/v2.0/Images/facebook.png);
+    <section class="header">
+	<section class="header_content">
+	 <a href="#"> <h1 class="logo">CodeBar</h1></a>
+        <nav id="navigation" role="nevigation" class="navbar navbar-default">
+		   <ul>
+                
+                <li><a href="#">Campus
+				<i class="arrow_down"></i> </a></li>
+                <li><a href="#">Corporate Training
+                 <i class="arrow_down"></i></a></li>
+                <li><a href="#">Become Trainer</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Sign In</a></li>
+            </ul>
 
-} 
-.footer_content1 .footer_content1_social ul li a:nth-child(1n+1):hover{
-background: url(../content/v2.0/Images/facebook-hover.png);
-} 
-.footer_content1 .footer_content1_social ul li  a:nth-child(1n+2){
-background: url(../content/v2.0/Images/facebook.png);
 
-} 
-.footer_content1 .footer_content1_social ul li a:nth-child(1n+2):hover{
-background: url(../content/v2.0/Images/facebook-hover.png);
-}
+        </nav>
+	</section>
+	
+	</section> 
+	 <section class="workshop container-fluid">
+        <section class="workshop_content container">
+		<section class="row">
+           <figure class="col-xs-6">
+		   <img class="img-responsive" src="Images/workshop-vector.png" />
+            </figure>
+			<section class="col-xs-6 workshop_content_txt">
+                <h2 class="content_area_heading">Workshops</h2>
+                <p class="content_area_p content_para22px">Stay current and gain insight with our fast paced and fun short form offerings.</p>
+                <input type="submit" value="Attend a Workshop" />
+            </section>
+			</section>
+     </section>
+        </section>

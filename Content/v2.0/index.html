@@ -1,113 +1,183 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width"> 
     <title>Code bar 2.0</title>
+	<link href="../../Styles/animate.min.css" rel="stylesheet" />
+	<link href="../../Styles/animate.css" rel="stylesheet" />
+	<link href="../../Styles/bootstrap.min.css" rel="stylesheet" /> 
+	<link href='../../Styles/bootstrap.css' rel="stylesheet">
     <link href="../../Styles/reset-styles-1.6.1.css" rel="stylesheet" />
     <link href="../../Styles/StyleSheet.css" rel="stylesheet" />
+	<link href="../../Styles/media_quries.css" rel="stylesheet" />
+	<link href="../../Styles/animate.min.css" rel="stylesheet" />
+	<link href="../../Styles/animate.css" rel="stylesheet" />
+	
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic' rel='stylesheet' type='text/css'>
+<script>
+     $(document).ready(function(){
+        $('.dropdown-toggle').dropdown()
+    });
+</script>
 </head>
 <body>
-    <section class="header">
-	<section class="header_content">
-	 <a href="#"> <h1 class="logo">CodeBar</h1></a>
-        <nav id="navigation">
-            <ul>
-                
-                <li><a href="#">Campus
-				<i class="arrow_down"></i> </a></li>
-                <li><a href="#">Corporate Training
-                 <i class="arrow_down"></i></a></li>
-                <li><a href="#">Become Trainer</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Sign In</a></li>
-            </ul>
 
-
-        </nav>
-	</section>
-	
-	</section>
+	 <div class="navbar navbar-default navbar-fixed-top " role="navigation">
+      <div class="container">
+	  <section class="row">
+        <div class="navbar-header ">
+          <button type="button" class="navbar-toggle btn_margin" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+           <a href="#"> <h1 class="logo">CodeBar</h1></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+             <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Campus <b class="caret"></b> </a>
+              <ul class="dropdown-menu">
+             	<li class="dropdown-header">Admin & Dashboard</li>
+                <li><a href="#">Admin 1</a></li>
+                <li><a href="#">Admin 2</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Portfolio</li>
+                <li><a href="#">Portfolio 1</a></li>
+                <li><a href="#">Portfolio 2</a></li>
+              </ul>
+            </li>       
+               <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Corporate Training <b class="caret"></b> </a>
+              <ul class="dropdown-menu">
+             	<li class="dropdown-header">Admin & Dashboard</li>
+                <li><a href="#">Admin 1</a></li>
+                <li><a href="#">Admin 2</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Portfolio</li>
+                <li><a href="#">Portfolio 1</a></li>
+                <li><a href="#">Portfolio 2</a></li>
+              </ul>
+            </li> 
+            <li><a href="#">Become Trainer</a></li>      
+            <li><a href="#">Blog</a></li>
+			<li><a href="#">Sign In</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+		</section>
+      </div>
+	  
+    </div>
 		
-		<section class="banner" >
-		
+		<section class="banner container-fluid">
 		<div class="wrapper">
 		</div>
-		
-			 <section class="banner_content">
-                 <h3>THERE IS NOTHING LIKE</h3>
+			<section class="row">
+			 <section class="banner_content container">
+                 <h3 class="zoomIn" >THERE IS NOTHING LIKE</h3>
 				 <h2>WORKING KNOWLEDGE</h2>
 				 <P>Code Bar Missing Link Between Industry & Acdemia </p>
 				 <input  id="banner_button" type="button" value="View Courses" />
              </section>
+
 		</section>
-		<section id="hackerspace">
-			<section id="hackerspace_content">
-				<section class="hackerspace_content_text">
-					<h2 class="content_area_heading">Hackerspace For Learning</h2>
+		</section>
+		<section class="container-fluid" id="hackerspace">
+			<section class="container"  id="hackerspace_content">
+			<section class="row">  <figure class="pull-right col-sm-6">
+				  <img  class="img-responsive" src="Images/hackerspace-vector.png" />
+					</figure>
+				<section class="pull-left hackerspace_content_text col-sm-6">
+					<h2 class="content_area_heading zoomIn">Hackerspace For Learning</h2>
 					<p class="content_area_p" id="para_1">CodeBar is part of supply and demand solution for education and training sector. We are not your typical institute who works 24/7 and only interested in pushing big batch of students to market with outdated knowledge and without thinking if there are more jobs for them or not. We are offering courses that are vital and current to meet industry demands our measure of success is not around how many enrolled but how many got jobs after taking our classes.</p>
-				<p class="content_area_p" id="para_2">We are trying to avoid typical business model of education and training sector in every way possible to stay lean, meaningful to student and bridge the gap among academia and industry. Our target audience are students, professionals and industry.</p>
+					<p class="visible-lg content_area_p" id="para_2">We are trying to avoid typical business model of education and training sector in every way possible to stay lean, meaningful to student and bridge the gap among academia and industry. Our target audience are students, professionals and industry.</p>
 				</section>
-				<img src="Images/hackerspace-vector.png" />
+				
+				
+				
+			</section>
+			<section class="row">
+							<p class="hidden-lg col-md-12 content_area_p" id="para_2">We are trying to avoid typical business model of education and training sector in every way possible to stay lean, meaningful to student and bridge the gap among academia and industry. Our target audience are students, professionals and industry.</p>	
+			</section>
 			</section>
 		</section>
-		<section class="explore_tracks">
-				<section id="explore_tracks_content">
-		<h3 class="content_area_heading" >Explore Tracks by Topics</h3>
+		<section class="explore_tracks container-fluid">
+				<section id="explore_tracks_content" class="container">
+				<section class="row">
+		<h3 class="content_area_heading zoomIn" >Explore Tracks by Topics</h3>
+				</section>
+		
+				<section class="row">
 		<ul>
-			<li> 
+			<li class="col-xs-6 col-sm-3 zoomIn"> 
 				<a href="#">
-					<h2 id="front_end">Front End Development</h2>
+					<h2 class="zoomIn" id="front_end">Front End Development</h2>
 				</a>
 			</li>
-			<li> 
+			<li class="col-xs-6 col-sm-3"> 
 				<a href="#">
 					<h2 id="web">Web Development</h2>
 				</a>
 			</li>
-			<li> 
+			<li class="col-xs-6 col-sm-3"> 
 				<a href="#">
 					<h2 id="Mobile">Mobile Development</h2>
 				</a>
 			</li>
-			<li> 
+			<li class="col-xs-6 col-sm-3"> 
 				<a href="#">
 					<h2 id="Game">Game Development</h2>
 				</a>
 			</li>
 		</ul>
-		
+		</section>
 				</section>
 		</section>
-		<section id="Turning_student">
-			<section class="Turning_student_content">
-				<img src="Images/turning-students-vector.png" />
-				<section class="Turning_student_content_text">
+		<section id="Turning_student" class="container-fluid">
+			<section class="Turning_student_content container">
+			<section class="row">
+				<figure class="col-sm-6 pull-left">
+				<img class="img-responsive" src="Images/turning-students-vector.png" />
+				</figure>
+				<section class="Turning_student_content_text col-sm-6 pull-right">
 				<h2 class="content_area_heading">Turning Student Into Professionals</h2>
 				<p class="content_area_p" id="Turning_student_P1">We have founded CodeBar to help students acquire new skills and tools, improve their craft to meet industry demands and score job easily. Our measure of success for a course is not driven by number of students enrolled but how many of our students filled the openings in local industry. Please check our blog for more details and updates about course contents.</p>
-				<p class="content_area_p" id="Turning_student_P2">CodeBar is heavily invested in students to know what are their problems what pains they face when they are out of university. We have developed a survey that will provide us a better and accurate understanding for our mission. Kindly take some time to fill it and share it with your fellow students.</p>
-				<p class="content_area_p" id="Turning_student_P3">We are starting with front-end development course that will help you understand how browsers works with Html/CSS this course is baseline for advance level web development like asp.net, php, metro Apps, Html5 Mobile Apps and Html5 games. We will be introducing more courses about mobile development with iOS and Android.</p>
+				<p class="content_area_p visible-lg" id="Turning_student_P2">CodeBar is heavily invested in students to know what are their problems what pains they face when they are out of university. We have developed a survey that will provide us a better and accurate understanding for our mission. Kindly take some time to fill it and share it with your fellow students.</p>
+				<p class="content_area_p visible-lg hidden-sm-12 " id="Turning_student_P3">We are starting with front-end development course that will help you understand how browsers works with Html/CSS this course is baseline for advance level web development like asp.net, php, metro Apps, Html5 Mobile Apps and Html5 games. We will be introducing more courses about mobile development with iOS and Android.</p>
+				</section>
+				</section>
+				<section class="row">
+				<p class="content_area_p hidden-lg visible-sm-12 col-md-12" id="Turning_student_P2">CodeBar is heavily invested in students to know what are their problems what pains they face when they are out of university. We have developed a survey that will provide us a better and accurate understanding for our mission. Kindly take some time to fill it and share it with your fellow students.</p>
+				</section>
+				<section class="row">
+				<p class="content_area_p hidden-lg col-md-12" id="Turning_student_P3">We are starting with front-end development course that will help you understand how browsers works with Html/CSS this course is baseline for advance level web development like asp.net, php, metro Apps, Html5 Mobile Apps and Html5 games. We will be introducing more courses about mobile development with iOS and Android.</p>
+				</section>
 				</section>
 			</section>
-			</section>
 			
-			<section class="Courses"> 
-				<section class="Courses_content">
-					<section class="Courses_content_text">
+			<section class="Courses container-fluid"> 
+				<section class="Courses_content container">
+					<section class="Courses_content_text col-sm-6 col-offset-2 pull-left">
 						<h2 class="content_area_heading">Courses</h2>
 						<p id="Courses_content_para" class="content_para22px">Make a career change with our 8–12 week, all-day, full-time programs.</p>
 						<input id="course_btn" type="button" value="View Courses" />
 					</section>
-					<img src="Images/courses-vector.png" />
-					
+					<figure class="col-sm-6 pull-right" >
+					<img class="img-responsive" src="Images/courses-vector.png" />
+					</figure>
 				</section>
 			</section>
-			<section class="Tracks">
-				<section class="Tracks_content">
+			<section class="Tracks container-fluid">
+				<section class="Tracks_content container">
+				<section class="row">
 				    <h2 class="content_area_heading">Tracks</h2>
+					</section>
+					<section class="row">
 					<section class="tracks_list">
 					<ul>
-					<li class="col-3">
+					<li class="col-xs-6 col-sm-3">
 						  <div class="dif_track" id="Front_end_track" ><a href="#">
 						  <h2 id="Front_end">Front End Development</h2>
                   <input class="tracks_btn " type="submit" value="View Detail" />
@@ -115,7 +185,7 @@
 							</div >
 							</li>
 							
-						 <li class="col-3">
+						 <li class="col-xs-6 col-sm-3">
 						  <div class="dif_track" id="web_development_track" >						
 						  <a href="#">
 						  <h2 id="web_development">Web Development</h2>
@@ -124,7 +194,7 @@
 							</div>
 							</li>
 						 
-						<li class="col-3">
+						<li class="col-xs-6 col-sm-3">
 						  <div id="mob_development_track" class="dif_track" >	
 							<a href="#">
 							<h2 id="mob_development">Mobile Development</h2>
@@ -132,7 +202,7 @@
 							</a>
 							</div>
 							</li>
-							<li class="col-3" style="margin-right:0px;">
+							<li class="col-xs-6 col-sm-3" style="margin-right:0px;">
 						  <div class="dif_track" id="game_development_track" >	
 							  <a href="#">
 							  <h2 id="game_development">Game Development</h2>
@@ -142,112 +212,122 @@
 						 </li>
 					</ul>
 					</section>
-					
+					</section>
 				
 				</section>
 			
 			</section>
 
-    <section class="workshop">
-        <section class="workshop_content">
-            <img src="Images/workshop-vector.png" />
-            <section class="workshop_content_txt">
-                <h2 class="content_area_heading">Workshops</h2>
-                <p class="content_area_p content_para22px">Stay current and gain insight with our fast paced and fun short form offerings.</p>
-                <input type="submit" value="Attend a Workshop" />
-            </section>
-     </section>
-        </section>
+  
 			
-    <section class="talks">
-        <section class="talks_content">
-            <section class="talks_content_txt">
+    <section class="talks container-fluid">
+        <section class="talks_content container">
+		<section class="row">
+            <section class="talks_content_txt col-sm-6">
                 <h2 class="content_area_heading">Talks</h2>
                 <p class="content_area_p content_para22px">Take part in our constructive and career building talks which will guide you towards better future.</p>
                 <input type="submit" value="View Talks" />
             </section>
-            <img src="Images/talks-vector.png" />
-        </section>
+				<figure class="col-sm-6 ">
+			<img class="img-responsive" src="Images/talks-vector.png" />
+				</figure>
+			</section>
+		</section>
     </section>
 		
-    <section class="stay_tuned">
-        <section class="stay_tuned_content">
-            <h2>Stay Tuned With CodeBar</h2>
-            <section class="text_fields">
+    <section class="stay_tuned container-fluid">
+        <section class="stay_tuned_content container">
+			<section class="row col-sm-12">
+		   <h2>Stay Tuned With CodeBar</h2>
+			</section>
+			<section class="row col-sm-12" >
+		   <section class="text_fields">
                 <ul>
-                    <li><input type="text" placeholder="Email" /></li>
-                    <li><input type="text" placeholder="First Name" /></li>
-                    <li><input type="text" placeholder="last Name"  /></li>
-                    <li><input id="text_fields_btn" type="submit" value="Subscribe" /></li>
+                    <li class="col-sm-3"><input type="text" placeholder="Email" /></li>
+                    <li class="col-sm-3"><input type="text" placeholder="First Name" /></li>
+                    <li class="col-sm-3"><input type="text" placeholder="last Name"  /></li>
+                    <li class="col-sm-3"><input id="text_fields_btn" type="submit" value="Subscribe" /></li>
                  </ul>
+			</section>
 			</section>
 		</section>
 	</section>
-	<section class="Views">
-		<section class="Views_content">
-		<img src="Images/client-pic.jpg" />
-			<section class="Views_content_text">
+	<section class="Views container-fluid">
+		<section class="Views_content container">
+		<section class="row">
+		<figure  class="col-sm-6">
+		<img  class="img-responsive" src="Images/client-pic.jpg" />
+			</figure>
+			<section class="col-sm-6 Views_content_text">
 				<h4 class="qouts"></h4>
 				<p id="qouts_para1" class="content_area_p content_para22px" >CodeBar - A unique type of collaborated training startup to fulfill IT Industry training and hiring need by professional people.</p>
 				<p id="qouts_para2" >Muhammad Farrukh Mahmood / CEO - 11Values / @farrukhzubairi</p>
 			</section>
 		</section>
+		</section>
 	</section>
-	<section class="footer">
-		<section class="footer_content">
- 
-				<section id="get_updates">
+<section class="container-fluid footer">
+        <section class="footer_content container">
+                    <section class="row">
+                <section class="col-xs-12 col-sm-6 col-md-6" id="get_updates">
+                    
+                    <p id="get_updates_para1">CodeBar transforms thinkers into creators through education and opportunities in technology, business, and design.</p>
+                    <p id="get_updates_para2">Find out about upcoming programs and events in CodeBar</p>
+                    
+                    <input id="get_updates_text" type="Text" placeholder="Your Email">
 					
-					<p id="get_updates_para1" >CodeBar transforms thinkers into creators through education and opportunities in technology, business, and design.</p>
-					<P id="get_updates_para2">Find out about upcoming programs and events in CodeBar</p>
-					
-					<input  id="get_updates_text" type="Text" placeholder="Your Email" />
-					<input id="get_updates_btn" type="submit" value="Get Updates" />
-					
-				</section>
-				<section id="company">
-				<ul>
-				<li><h2>Company</h2></li>
-				<li><a href="">About</a></li>
-				<li><a href="">Locations</a></li>
-				<li><a href="">Blog</a></li>
-				<li><a href="">Careers</a></li>
-				<li><a href="">Contact</a></li>
-				<li><a href="">FAQ</a></li>
-				<li><a href="">Press</a></li>
-				</ul>
-				</section>
-				<section id="community">
-				<ul>
-				<li><h2>Become an Instructor</h2></li>
-				<li><a href="">Corporate Training Opportunities</a></li>
-				<li><a href="">Fund a Scholarship</a></li>
-				<li><a href="">Looking for Talent?</a></li>
-				<li><a href="">Develop 21st Century Credentials</a></li>
-				</ul>
-				</section>
-			</section>
-	<section class="footer_content1">
-			<section class="footer_content1_text">
-			<ul>
-			<li><a herf="#">Terms of Use Site</a></li>
-			<li><a herf="#">Feedback</a></li>
-			<li><a herf="#">Privacy Policy</a></li>
-			</ul>
-			<p>Copyright © codebar.pk 2015. All rights reserved.</p>
-			</section>
-			<section class="footer_content1_social">
-			<ul>
-			<li><a class="twit" href="#"></a></li>
-			<li><a  class="facebok"  href="#"></a></li>
-			<li><a  class="google" href="#"></a></li>
-			<li><a  class="linkin"href="#"></a></li>
-			<li><a  class="pintrest" href="#"></a></li>
-			
-			</ul>
-			</section>
-	</section>
-	</section>
+                    <input id="get_updates_btn" type="submit" value="Get Updates">
+					 
+                    
+                </section>
+                <section class="col-xs-6 col-sm-2" id="company">
+                <ul>
+                <li><h2>Company</h2></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Locations</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Press</a></li>
+                </ul>
+                </section>
+                <section id="community" class="col-xs-6 col-sm-3 col-offset-1">
+                <ul>
+                <li><h2>Become an Instructor</h2></li>
+                <li><a href="">Corporate Training Opportunities</a></li>
+                <li><a href="">Fund a Scholarship</a></li>
+                <li><a href="">Looking for Talent?</a></li>
+                <li><a href="">Develop 21st Century Credentials</a></li>
+                </ul>
+                </section>
+            </section>
+        </section>            
+		<section class="footer_content1 container">
+        <section class="row">
+            <section class="col-xs-12 col-sm-6  footer_content1_terms">
+            <ul>
+            <li><a herf="#">Terms of Use Site</a></li>
+            <li><a herf="#">Feedback</a></li>
+            <li><a herf="#">Privacy Policy</a></li>
+            </ul>
+            <p>Copyright © codebar.pk 2015. All rights reserved.</p>
+            </section>
+            <section class=" footer_content1_social col-xs-12 col-sm-6">
+            <ul>
+            <li><a class="twit" href="#"></a></li>
+            <li><a class="facebok" href="#"></a></li>
+            <li><a class="google" href="#"></a></li>
+            <li><a class="linkin" href="#"></a></li>
+            <li><a class="pintrest" href="#"></a></li>
+            
+            </ul>
+            </section>
+            </section>
+            </section>
+    </section> 
 	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 </body>
 </html>
