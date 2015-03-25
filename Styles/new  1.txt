@@ -1,0 +1,14 @@
+.footer_content1 .footer_content1_social ul li  a:nth-child(1n+1){
+background: url(../content/v2.0/Images/facebook.png);
+
+} 
+.footer_content1 .footer_content1_social ul li a:nth-child(1n+1):hover{
+background: url(../content/v2.0/Images/facebook-hover.png);
+} 
+.footer_content1 .footer_content1_social ul li  a:nth-child(1n+2){
+background: url(../content/v2.0/Images/facebook.png);
+
+} 
+.footer_content1 .footer_content1_social ul li a:nth-child(1n+2):hover{
+background: url(../content/v2.0/Images/facebook-hover.png);
+}
