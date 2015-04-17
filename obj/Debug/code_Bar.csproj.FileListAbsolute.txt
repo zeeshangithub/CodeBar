@@ -1,0 +1,12 @@
+c:\users\muhammad.zeeshan\documents\visual studio 2013\Projects\code_Bar\code_Bar\bin\code_Bar.dll.config
+c:\users\muhammad.zeeshan\documents\visual studio 2013\Projects\code_Bar\code_Bar\bin\code_Bar.dll
+c:\users\muhammad.zeeshan\documents\visual studio 2013\Projects\code_Bar\code_Bar\bin\code_Bar.pdb
+c:\users\muhammad.zeeshan\documents\visual studio 2013\Projects\code_Bar\code_Bar\obj\Debug\code_Bar.csprojResolveAssemblyReference.cache
+c:\users\muhammad.zeeshan\documents\visual studio 2013\Projects\code_Bar\code_Bar\obj\Debug\code_Bar.dll
+c:\users\muhammad.zeeshan\documents\visual studio 2013\Projects\code_Bar\code_Bar\obj\Debug\code_Bar.pdb
+G:\code_Bar\code_Bar\bin\code_Bar.dll.config
+G:\code_Bar\code_Bar\bin\code_Bar.dll
+G:\code_Bar\code_Bar\bin\code_Bar.pdb
+G:\code_Bar\code_Bar\obj\Debug\code_Bar.csprojResolveAssemblyReference.cache
+G:\code_Bar\code_Bar\obj\Debug\code_Bar.dll
+G:\code_Bar\code_Bar\obj\Debug\code_Bar.pdb
